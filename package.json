@@ -28,8 +28,11 @@
   },
   "homepage": "https://github.com/googleapis/release-please-action#readme",
   "dependencies": {
-    "@actions/core": "^1.10.0",
-    "release-please": "^17.6.1"
+    "@actions/core": "^2.0.3",
+    "release-please": "~17.9.0"
+  },
+  "overrides": {
+    "@google-automations/git-file-utils": "3.0.1"
   },
   "devDependencies": {
     "@types/mocha": "^9.0.0",
